@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="formularioScript.js"> </script>
+</head>
+<style>
+    .esconder {
+        display: none;
+    }
+</style>
+
+
+
+<body>
+    <form action="application.python" method="post">
+        <div class="tipoLoteria">
+            <h1>Selecione a loteria que deseja jogar</h1>
+
+            <label for="tipoLoteria">Tipo de Loteria</label>
+            <select name="tipoLoteria" id="tipoLoteria" oninput="aparecerDivNumeros()" required >
+                <option value=""></option>
+                <option value="quina">Quina</option>
+                <option value="megaSena">Mega-Sena</option>
+            </select>
+        </div>
+
+        <div class="numeros esconder">
+            <h2>Quantidade de numeros que deseja jogar</h2>
+            <label for="quantidadeNumeros">Quantidade de Numeros</label>
+            <select name="quantidadeNumeros" id="quantidadeNumeros" oninput="aparecerDivTipoDeAposta()" required>
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+
+        </div>
+
+        <div class="tipoDeAposta esconder">
+            <h2>Tipo De Aposta</h2>
+
+            <label for="tipoDeAposta">Selecione o tipo de aposta</label>
+            <select name="tipoDeAposta" id="tipoDeAposta" oninput="aparecerAleatorioOuRecorrencia()" required>
+                <option value=""></option>
+                <option value="recorrencia">Recorrência</option>
+                <option value="aleatorio">Aleatório</option>
+            </select>
+        </div>
+
+        <div class="recorrencia esconder">
+            <h3>Recorrência</h3>
+
+            <label for="ultimosConcursos">Quais ultimos concursos</label>
+            <input type="number" id="ultimosConcursos">
+
+            <br><br>
+
+            <label for="quantidadePalpites">Quantidade de palpites</label>
+            <input type="number" id="quantidadePalpites" max="16" placeholder="(max16)">
+            <input type="button" onclick="aparecerSubmit()" value="Proseguir">
+            
+        </div>
+
+        <div class="aleatorio esconder">
+            <h3>Aleatório</h3>
+
+            <label for="quantidadePalpites2">Quantidade de palpites</label>
+            <input type="number" id="quantidadePalpites2" max="16" placeholder="(max16)" onchange="aparecerSubmit()">
+        </div>
+
+
+        <div class="submit esconder">
+            <input type="submit">
+        </div>
+
+        
+            
+        </div>
+    </form>
+</body>
+
+</html>

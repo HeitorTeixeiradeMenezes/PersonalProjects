@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lexend:wght@300;400&display=swap');
+body{
+    margin: 60px;
+    background-image: url("contents/background/Desktop\ -\ 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1{
+    width: 800px;
+    font-family: 'Lexend', sans-serif;
+    line-height: 96%;
+    margin: 0px;
+    font-size: 67px;
+    margin-top: 80px;
+    color: rgba(241, 202, 61, 1);
+}
+h2{
+    font-family: 'Lexend', sans-serif;
+    margin: 0px;
+    font-size: 47px;
+    color: white;
+}
+p{
+    margin-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    width: 560px;
+    font-size: 22px;
+    line-height: 186%;
+    letter-spacing: 8%;
+}
+b{
+    color: rgba(241, 202, 61, 1);
+}
+
+.comecarAgora{
+    display: flex;
+    height: 127px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+img{
+    height: 110px;
+}
+
+a{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lexend', sans-serif;
+    text-decoration: underline;
+    color: black;
+    background-color: rgba(241, 202, 61, 1);;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 560px){
+body{
+    background-image: url("contents/background/celular.png");
+    margin: 0px;
+}
+header{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    width: 336px;
+    margin: auto;
+    margin-top: 100px;
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+}
+.paragrafo{
+    text-align: center;
+}
+p{
+    font-size: 19px;
+    text-align: center;
+    width: 290px;
+    margin: auto;
+    margin-top: 50px;
+}
+.comecarAgora{
+    text-align: center;
+    margin: auto;
+    width: 280px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+img{
+    height: 100px;
+}
+a{
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+    
+}
