@@ -35,7 +35,7 @@ header h1::after{
     left: -45px; 
     right: -45px; 
     bottom: -10px; 
-    border-bottom: 7px solid #ff0000;
+    border-bottom: 7px solid #FF5252;
     height: 200px;
 }
 
@@ -60,7 +60,7 @@ header h1::after{
     height: 80px;
     margin-top: 0px;
     color: white;
-    background-color: #ff0000;
+    background-color: #FF5252;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,21 +69,18 @@ header h1::after{
 .estrategias article{
     display: flex;
     max-width: 1200px;
-    margin: auto;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 article section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 20px;
-    width: 660px;
     text-align: center;
 }
 section img{
-    width: 350px;
-    height: 400px;
+    max-width: 350px;
+    max-height: 400px;
 }
 
 .linkPalpite{
@@ -91,8 +88,8 @@ section img{
     justify-content: center;
 }
 .linkPalpite a{
-    background-color: #ff0000;
-    padding: 5px 100px 5px 100px;
+    background-color: #FF5252;
+    padding: 25px 100px 25px 100px;
     border-radius: 5px;
     color: white;
     text-decoration: none;
@@ -106,13 +103,13 @@ section img{
 }
 .pdf img{
     max-width: 600px;
-    height: 300px;
+    max-width: 500px;
 }
 .pdf p{
     text-align: center;
 }
 .aviso{
-    background-color: #ff0000;
+    background-color: #FF5252;
     padding: 20px;
     margin-bottom: 200px;
 }
@@ -129,4 +126,12 @@ footer{
     background-color: gray;
 }
 
+@media (max-width: 1200px){
+    .estrategias article{
+        flex-wrap: wrap;
+    }
+    section p{
+        margin: 10px 150px;
+    }
+}
 
