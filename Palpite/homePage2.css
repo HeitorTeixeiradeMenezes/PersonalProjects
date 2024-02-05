@@ -1,0 +1,132 @@
+body{
+    
+    margin: auto;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 60px;
+    margin: 0;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+h2{
+    font-size: 29px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 18px;
+}
+body > header{
+    background-image: url("content2/imgs/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header h1::after{
+    content: ''; 
+    position: absolute; 
+    left: -45px; 
+    right: -45px; 
+    bottom: -10px; 
+    border-bottom: 7px solid #ff0000;
+    height: 200px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+.descricao h2{
+    margin-top: 30px;
+}
+.descricao p{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.estrategias header{
+    height: 80px;
+    margin-top: 0px;
+    color: white;
+    background-color: #ff0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.estrategias article{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+article section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 660px;
+    text-align: center;
+}
+section img{
+    width: 350px;
+    height: 400px;
+}
+
+.linkPalpite{
+    display: flex;
+    justify-content: center;
+}
+.linkPalpite a{
+    background-color: #ff0000;
+    padding: 5px 100px 5px 100px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.pdf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.pdf img{
+    max-width: 600px;
+    height: 300px;
+}
+.pdf p{
+    text-align: center;
+}
+.aviso{
+    background-color: #ff0000;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+.aviso p{
+    margin: 5px 130px 5px 130px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: gray;
+}
+
+

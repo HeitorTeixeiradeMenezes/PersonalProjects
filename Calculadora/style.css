@@ -1,0 +1,60 @@
+.display{
+    max-width:500px;
+    margin: auto;
+    background-color: red;
+    height: auto;
+    border-radius: 10%;
+    padding: 20px;
+}
+.resultado{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px;
+}
+.resultado div{
+    width: 550px;
+    margin: 10px;
+    height: 50px;
+    padding: 3px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+.numeros{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.numeros button{
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    border-radius: 50%;
+    border: none;
+}
+.numeros button:hover{
+    background-color: aqua;
+}
+.operadores{
+    height: auto;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.operadores button{
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    border-radius: 50%;
+    border: none;
+}
+.operadores button:hover{
+    background-color: aqua;
+}

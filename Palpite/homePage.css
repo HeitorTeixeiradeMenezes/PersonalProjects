@@ -21,12 +21,12 @@ h2{
     font-family: 'Lexend', sans-serif;
     margin: 0px;
     font-size: 47px;
-    color: white;
+    color: rgba(255, 255, 255, 0.699);
 }
 p{
     margin-top: 50px;
     font-family: 'Josefin Sans', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.699);
     width: 560px;
     font-size: 22px;
     line-height: 186%;
@@ -90,7 +90,6 @@ p{
     text-align: center;
     margin: auto;
     width: 280px;
-    margin-top: 20px;
     justify-content: space-around;
 }
 
