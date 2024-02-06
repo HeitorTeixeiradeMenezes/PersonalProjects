@@ -70,7 +70,6 @@ header h1::after{
     display: flex;
     max-width: 1200px;
     flex-wrap: nowrap;
-    margin: auto;
     align-items: center;
     justify-content: center;
 }
@@ -134,4 +133,42 @@ footer{
         margin: 10px 150px;
     }
 }
+@media (max-width: 800px){
+    h1{
+        font-size: 40px
+    }
+    h2{
+        font-size: 19px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+    body > header{
+        height: 200px;
+    }
+    .descricao p{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }    
+    .estrategias header{
+        height: 30px;
+        margin-top: 0px;
+    }
+    section img{
+        max-width: 250px;
+        max-height: 250px;
+    }
+    section p{
+        width: 300px;
+    }
 
+
+
+
+
+}
