@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.header div{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+.header div .avatar{
+    margin: 0;
+    margin-top: 15px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 11%;
+    position: relative;
+    top: 10px;
+    font-style: normal;
+    background-color: white;
+}
+.header div p{
+    margin-top: 0;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+.header a{
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    font-style: normal;
+    color: black;
+}
+header .talk{
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(180, 210, 186, 1);
+    height: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+}
+
+.hello{
+    display: flex; 
+}
+h1{
+    width: 550px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+h1 b{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+.hire{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.hire:nth-child(2) :first-child{
+    margin-right: 25px;
+    background-color: rgba(180, 210, 186, 1);
+    padding: 10px 25px 10px 25px ;
+    border-radius: 60px;
+    color: black;
+}
+.hire:nth-child(2) :last-child{
+    text-decoration: underline;
+    color: black;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+.social div{
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
+.social div p{
+    margin-left: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.helloImg{
+    max-width: 100%;
+    position: relative;
+}

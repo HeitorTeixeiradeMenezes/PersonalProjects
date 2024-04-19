@@ -93,6 +93,7 @@ section img{
     color: white;
     text-decoration: none;
     font-size: 18px;
+    text-align: center;
 }
 .pdf{
     display: flex;
@@ -102,7 +103,6 @@ section img{
 }
 .pdf img{
     max-width: 600px;
-    max-width: 500px;
 }
 .pdf p{
     text-align: center;
@@ -113,7 +113,6 @@ section img{
     margin-bottom: 200px;
 }
 .aviso p{
-    margin: 5px 130px 5px 130px;
     color: white;
 }
 
@@ -167,8 +166,63 @@ footer{
         width: 300px;
     }
 
+<<<<<<< HEAD
 
 
 
 
+=======
+@media (max-width: 800px){
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 21px;
+    }
+    h3{
+        font-size: 21px;
+    }
+    p{
+        font-size: 18px;
+    }
+    body > header{
+        height: 200px;
+    }
+    header h1::after{
+        left: -5px; 
+        right: -5px; 
+        bottom: -10px; 
+        border-bottom: 5px solid #FF5252;
+    }
+    .descricao p{
+        margin: 20px 30px 40px 30px;
+        font-size: 18px;
+    }
+    .estrategias header{
+        height: 40px;
+    }
+    article section{
+        margin: 20px;
+        text-align: center;
+    }
+    section img{
+        max-width: 67%;
+    
+        max-height: 67%;
+    
+    }
+    article p{
+        margin: 0;
+    }
+    .linkPalpite a{
+        padding: 15px 50px 15px 50px;
+    }
+    .aviso p{
+        font-size: 18px;
+    }
+    
+    .pdf img{
+        max-width: 80%
+    }
+>>>>>>> 073383c4dca366c6859f74a185fd3954a6568f4f
 }
