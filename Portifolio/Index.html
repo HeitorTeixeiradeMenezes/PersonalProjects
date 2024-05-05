@@ -8,16 +8,26 @@
 </head>
 <body>
     <header class="flex">
-        <a class="header" href="">
+        <a class="header pc" href="">
             <img src="Content/profileAvatar.png" alt="" class="headerIMG">
+            
             <div>
                 <h4 class="avatar">Dev Teixeira</h4>
                 <p>Personal</p>
             </div>
         </a>
+        </div>
+        <div class="menu phone">
+            <div><input type="image" src="Content/Button.jpg" class="mobilebtn" ></div>
 
-        <div class="header">
-            <a href="">about</a>
+            <div>
+                <h4 class="avatar">Dev Teixeira</h4>
+                <p>Personal</p>
+            </div>
+        </div>
+
+        <div class="header links pc">
+            <a href="#about">about</a>
             <a href="">portfolio</a>
             <a href="">curriculum</a>
         </div>
@@ -25,6 +35,11 @@
         <a class="talk" href="">Lets talk</a>
  
     </header>
+    <div class="plinks phone">
+        <a href="#about">about</a>
+        <a href="">portfolio</a>
+        <a href="">curriculum</a>
+    </div>
 
     <main>
         <section class="hello">
@@ -48,13 +63,16 @@
                     </div>
                 </div>
             </div>
-            <div class="helloImg">
+            <div class="helloImg pc">
                 <img src="Content/HelloIMG.png" alt="">
+            </div>
+            <div class="phone helloImgPhone">
+                <img src="Content/HelloPhone.png" alt="">
             </div>
             
         </section>
 
-        <section>
+        <section id="about">
             <h2>About <b>me</b></h2>
             <div class="flex about">
                 <img src="Content/Tecnologies.png" alt="">
@@ -68,26 +86,18 @@
         <section>
             <h2>Portfolio</h2>
             <div class="portfolio">
-                <div>
-                    <a href=""><div id=""><img src="Content/Screenshot_1.png" alt=""></div><p>exemple</p></a>
-
-                    <a href=""><div id=""><img src="Content/Screenshot_1.png" alt=""></div><p>exemple</p></a>   
-
-                    <a href=""><div id=""><img src="Content/Screenshot_1.png" alt=""></div><p>exemple</p></a>
-                </div>
-                <div>
-                    <a href=""><div id=""><img src="Content/Screenshot_1.png" alt=""></div><p>exemple</p></a>
-
-                    <a href=""><div id=""><img src="Content/Screenshot_1.png" alt=""></div><p>exemple</p></a>
-
-                    <a href=""><div id=""><img src="Content/Screenshot_1.png" alt=""></div><p>exemple</p></a>
-                </div>
+                <div> <a href=""><img src="Content/Screenshot_1.png" alt=""><p>aaaa</p></a></div>
+                <div> <a href=""><img src="Content/Screenshot_1.png" alt=""><p>aaaa</p></a></div>
+                <div> <a href=""><img src="Content/Screenshot_1.png" alt=""><p>aaaa</p></a></div>
+                <div> <a href=""><img src="Content/Screenshot_1.png" alt=""><p>aaaa</p></a></div>
+                <div> <a href=""><img src="Content/Screenshot_1.png" alt=""><p>aaaa</p></a></div>
+                <div> <a href=""><img src="Content/Screenshot_1.png" alt=""><p>aaaa</p></a></div>
             </div>
         </section>
 
-        <section>
+        <section class="curriculum">
             <h2>Download the <b>curriculum</b></h2>
-            <img src="Content/iconDownload.png" alt="">
+            <a href=""><img src="Content/iconDownload.png" alt=""></a>
         </section>
 
     </main>
