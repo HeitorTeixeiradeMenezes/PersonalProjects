@@ -138,7 +138,8 @@ h2{
     font-family: "Anek Devanagari", sans-serif;
     font-weight: 500;
     font-size: 36px;
-    text-align: center; 
+    text-align: center;
+    width: 280px;
     margin: auto;
 }
 h2 b{
@@ -216,7 +217,7 @@ footer p{
         margin-left: 60px;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .headerIMG{
         width: 50px;
     }
@@ -254,7 +255,7 @@ footer p{
     }
     h2{
         font-size: 26px;
-        width: 500px;
+        text-align: center;
     }
     .about p{
         font-size: 19px;
@@ -281,6 +282,9 @@ footer p{
     }
     .phone{
         display: block;
+    }
+    body{
+        margin: 0px;
     }
     header{
         margin-bottom: 0px;
@@ -328,19 +332,50 @@ footer p{
         bottom: 50px;
     }
     .hello{
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
     }
     h1{
         font-size: 24px;
-        width: 200px;
+        width: 210px;
         line-height: 152%;
         margin: 0;
+        margin-right: 5px;
     }
     .helloImgPhone img{
         width: 100%;
         min-height: 140px;
     }
-    
-    
+    .hire{
+        font-size: 14px;
+    }
+    .hire:nth-child(2) :first-child{
+        padding: 5px 10px 5px 10px ;
+    }
+    .social div a{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 20px;
+        width: 200px;
+        margin-top: 0px;
+    }
+    .about{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    .about p{
+        font-size: 14px;
+        max-width: 240px;
+        height: 300px;
+        position: relative;
+
+    }
+    .about img{
+        width: 133px;
+        height: 200px;
+        position: relative;
+        top: 50px;
+    }
 }
