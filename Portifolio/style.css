@@ -409,7 +409,7 @@ footer p{
         font-size: 10px;
     }
 }
-@media (max-width: 400px){
+@media (max-width: 460px){
     body{
         background-color: aqua;
     }
