@@ -217,7 +217,7 @@ footer p{
         margin-left: 60px;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .headerIMG{
         width: 50px;
     }
@@ -276,7 +276,7 @@ footer p{
         width: 150px;
     }
 }
-@media (max-width: 759px) {
+@media (max-width: 700px) {
     .pc {
         display: none;
     }
