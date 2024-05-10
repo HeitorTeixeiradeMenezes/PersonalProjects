@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
 .phone{
     display: none;
 }
@@ -194,6 +197,7 @@ h2 b{
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 400px;
 }
 .curriculum a{
     margin-top: 50px;
@@ -394,6 +398,7 @@ footer p{
         flex-direction: column;
         align-items: center;
         margin-top: 40px;
+        margin-bottom: 300px;
     }
     .curriculum a{
         margin-top: 10px;
@@ -409,9 +414,8 @@ footer p{
         font-size: 10px;
     }
 }
-@media (max-width: 660px){
+@media (max-width: 420px){
     body{
-        background-color: aqua;
     }
     .menu{
         display: flex;
@@ -433,7 +437,6 @@ footer p{
         bottom: 4px;
     }
     h1{
-        background-color: blue;
         font-size: 18px;
         width: 170px;
         line-height: 152%;
@@ -462,21 +465,24 @@ footer p{
         width: 200px;
         height: 270px;
         position: relative;
-
     }
     .about img{
-        width: 30%;
+        width: 100px;
         height: 140px;
         position: relative;
-        top: 50px;
+        top: 60px;
+    }
+    .portfolioPhn{
+        position: relative;
+        bottom: 30px;
     }
     .portfolio div a img{
-        width: 250px;
-        height: 130px;
+        width: 200px;
+        height: 120px;
         border-radius: 25px;
     }
     .portfolio div a p{
-        font-size: 16px;
+        font-size: 13px;
     }
     .curriculum a img{
         width: 150px;
@@ -485,10 +491,10 @@ footer p{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 0px;
     }
     .curriculum a{
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .curriculum a img{
         width: 100px;
