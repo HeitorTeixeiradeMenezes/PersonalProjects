@@ -26,6 +26,7 @@ let traduzirPortugues = function(){
     document.querySelectorAll("h2")[0].innerHTML = "Sobre <b>mim</b>"
     document.querySelector(".about").querySelector("p").innerHTML = `Estudante front-end na <b>Universidade Federal de Uberlândia</b>, cursando <b>Sistemas de Informação</b>. Apaixonado por criar experiências web intuitivas através de <b class="normal" style="color: rgba(230, 81, 0, 1);">HTML</b>, <b class="normal" style="color: rgba(31, 153, 237, 1);">CSS</b> e <b class="normal" style="color: rgba(228, 206, 0, 1);">JavaScript</b>. Comprometido em aprimorar habilidades em design e programação para inovar no desenvolvimento web.`;
 
+    document.querySelectorAll("h2")[2].innerHTML = "Baixe o <b>currículo</b>"
 }
 let traduzirUS = function(){
     const url = "https://heitorteixeirademenezes.github.io/personalProjects/Portifolio/Index.html"
