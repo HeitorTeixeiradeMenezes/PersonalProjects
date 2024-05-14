@@ -13,6 +13,7 @@ let traduzirPortugues = function(){
     // Header
     let header = document.querySelector("header").querySelectorAll("div")
     header[0].querySelector("p").innerHTML = "Pessoal"
+    header[3].querySelector("p").innerHTML = "Pessoal"
     header[4].querySelectorAll("a")[0].innerHTML = "sobre"
     header[4].querySelectorAll("a")[2].innerHTML = "currículo"
     document.querySelector("header").querySelectorAll("a")[4].innerHTML = "Fale Comigo"
