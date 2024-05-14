@@ -59,15 +59,27 @@ header p{
     font-style: normal;
     color: black;
 }
+.translate{
+    display: flex;
+    align-items: center;
+}
+.translate select{
+    height: 30px;
+    margin-right: 5px;
+    border: none;           /* Remove a borda */
+    background: none;       /* Remove o fundo */
+    padding: 0;             /* Remove o padding */
+    font-family: inherit;   /* Usa a mesma fonte do pai */
+    font-size: inherit;     /* Usa o mesmo tamanho de fonte do pai */
+    color: inherit;         /* Usa a mesma cor de texto do pai */
+}
 header .talk{
-    margin-top: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 22px;
     text-align: center;
     background-color: rgba(180, 210, 186, 1);
-    height: 30px;
     padding: 10px;
     border-radius: 30px;
     color: black;
@@ -112,6 +124,7 @@ h1 b{
     display: flex;
     align-items: center;
     margin-top: 10px;
+    text-align: center;
 }
 .hire1{
     margin-right: 25px;
@@ -244,8 +257,10 @@ footer p{
     .header a{
         font-size: 16px;
     }
+    .translate select{
+        height: 25px;
+    }
     header .talk{
-        margin-top: 15px;
         font-size: 18px;
         padding: 5px;
     }
@@ -316,10 +331,15 @@ footer p{
         bottom: 21px;
         text-align: center;
     }
+    .translate{
+        position: relative;
+        bottom: 23px;
+    }
+    .translate select{
+        height: 20px;
+    }
     header .talk{
         font-size: 15px;
-        margin-top: 0px;
-        height: 23px;
     }
     .plinks{
         display: none;
@@ -440,9 +460,6 @@ footer p{
     }
     header .talk{
         font-size: 12px;
-        height: 20px;
-        position: relative;
-        bottom: 4px;
     }
     h1{
         font-size: 18px;
