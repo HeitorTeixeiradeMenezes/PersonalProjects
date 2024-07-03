@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+body{
+    margin: 0;
+}
+.hero-section{
+    height: 800px;
+    background-image: url("../images/backgroundHeroSection.png");
+    background-size: cover;
+    margin: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 0px 75px 0px 60px;
+    margin-bottom: 0px;
+}
+.logo{
+    width: 75px;
+    height: 79px;
+}
+.links a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+}
+#alugueJa{
+    font-size: 18px;
+    padding: 4px 15px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+
+
+
+
+main{
+    padding-top: 10px;
+    background: linear-gradient(to bottom, rgba(34, 34, 34, 1), rgba(0, 0, 0, 1));
+}
