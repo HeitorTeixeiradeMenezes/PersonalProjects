@@ -14,7 +14,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
-    margin: 0px 75px 0px 60px;
+    margin: 0px 75px 0px 50px;
     margin-bottom: 0px;
 }
 .logo{
@@ -36,9 +36,54 @@ header{
     border-radius: 50px;
 }
 
+h1{
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+    line-height: 111%;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    
+}
+h1 .size1{
+    font-weight: 300;
+    font-size: 45px;
+}
+h1 .size2{
+    font-weight: 500;
+    font-size: 44px;
+}
+h1 .size3{
+    font-weight: 500;
+    font-size: 58px;
+}
 
-
-
+.hero-section p{
+    width: 340px;
+    margin-left: 80px;
+    margin-top: 15px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 158%;
+    letter-spacing: 3px;
+    color: white;
+}
+.mainButton{
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 18px;
+    font-weight: 450;
+    background-color: rgba(249, 244, 244, 0.637);
+    color: black;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
 
 main{
     padding-top: 10px;
