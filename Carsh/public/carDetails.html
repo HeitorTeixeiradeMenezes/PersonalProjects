@@ -3,21 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Página 2</title>
 </head>
 <body>
-    <h1 id="resultado"></h1>
+    <div class="container" id="container"></div>
 
-    <input type="date" name="aaa" id="aaa">
 
-    <script>
-        function getQueryParam(param) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(param);
-            
-        }
-
-        document.getElementById('resultado').innerText = getQueryParam('valor');
-    </script>
+    <script type="module" src="/Carsh/src/functions/createElement.mjs"></script>
 </body>
 </html>
