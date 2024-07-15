@@ -1,6 +1,9 @@
 import { carModels } from '../db/Objects.mjs';
 console.log(carModels)
 
+const containerModelos = document.querySelector("#container")
+containerModelos.innerHTML = " "
+
 
 const createElement = function(obj){
     const containerModelos = document.querySelector("#container")
