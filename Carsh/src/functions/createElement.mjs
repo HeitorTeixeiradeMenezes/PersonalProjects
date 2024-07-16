@@ -1,17 +1,9 @@
-import { carModels } from '../db/Objects.mjs';
-console.log(carModels)
-
-const containerModelos = document.querySelector("#container")
-containerModelos.innerHTML = " "
-
-
-const createElement = function(obj){
-    const containerModelos = document.querySelector("#container")
-
+import { carModels } from '../db/Objects.mjs'
+export const createElement = function(obj){
     const elemetDiv = document.createElement("div")
     elemetDiv.className = "element"
     elemetDiv.setAttribute("modelo", `${obj.modelo}`)
-    containerModelos.appendChild(elemetDiv)
+    container.appendChild(elemetDiv)
         const divTitle = document.createElement("div")
         divTitle.className = "title"
         elemetDiv.appendChild(divTitle)
@@ -39,7 +31,3 @@ const createElement = function(obj){
                 imageDiv.setAttribute("alt", "")
                 divImage.appendChild(imageDiv)
 }               
-
-carModels.forEach(car=> {
-    createElement(car)
-});
