@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
 body{
     margin: 0;
 }
@@ -109,6 +113,7 @@ h2{
 }
 .element{
     width: 490px;
+    height: 190px;
     padding: 10px 20px;
     margin: 10px;
     background-color: white;
@@ -162,6 +167,7 @@ h2{
 }
 .sobre{
     background-image: url(../images/backgroundSobre.jpg);
+    background-size: cover;
     height: 560px;
 }
 .rigth-flex{
@@ -204,3 +210,20 @@ footer p a{
     color: rgb(129, 170, 150);
 }
 
+.hover1:hover{
+    color:  rgb(204, 206, 169);
+}
+.hover2:hover{
+    color:  rgb(204, 206, 169);
+    border: rgb(204, 206, 169);
+}
+.hover3:hover{
+    background-color: white;
+}
+.hover4:hover{
+    background-color: rgb(51, 51, 51);
+}
+.element:hover{
+    transition: 80ms ;
+    padding: 20px 30px;
+}

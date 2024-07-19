@@ -22,6 +22,7 @@ export const createElement = function(obj){
                 const textButton = document.createElement("button")
                 textButton.setAttribute("type", "button")
                 textButton.textContent = "Alugar"
+                textButton.classList = "hover4"
                 divText.appendChild(textButton)
             const divImage = document.createElement("div")
             divImage.className = "image"
