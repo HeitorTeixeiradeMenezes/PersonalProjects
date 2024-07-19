@@ -115,7 +115,7 @@ h2{
     width: 490px;
     height: 190px;
     padding: 10px 20px;
-    margin: 10px;
+    margin: 10px 10px;
     background-color: white;
     border-radius: 20px;
 }
@@ -211,11 +211,10 @@ footer p a{
 }
 
 .hover1:hover{
-    color:  rgb(204, 206, 169);
+    color:  rgb(214, 236, 250);
 }
 .hover2:hover{
-    color:  rgb(204, 206, 169);
-    border: rgb(204, 206, 169);
+    color:  rgb(214, 236, 250);
 }
 .hover3:hover{
     background-color: white;
@@ -226,4 +225,5 @@ footer p a{
 .element:hover{
     transition: 80ms ;
     padding: 20px 30px;
+    margin: 10px 0px;
 }

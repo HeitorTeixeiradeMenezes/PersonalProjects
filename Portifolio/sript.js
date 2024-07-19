@@ -20,7 +20,7 @@ let traduzirPortugues = function(){
     document.querySelector(".plinks").querySelectorAll("a")[0].innerHTML = "sobre"
     document.querySelector(".plinks").querySelectorAll("a")[2].innerHTML = "currículo"
     // Main
-    document.querySelector(".hello").querySelector("h1").innerHTML = "Olá, bem-vindo Eu sou <b>Heitor Teixeira</b> Designer de UI/UX- Desenvolvedor web front-end"
+    document.querySelector(".hello").querySelector("h1").innerHTML = "Olá, bem-vindo Eu sou <b>Heitor Teixeira</b> Designer UI/UX- Desenvolvedor web front-end"
     document.querySelector(".hire").querySelectorAll("a")[0].innerHTML = "Contrate"
     document.querySelector(".hire").querySelectorAll("a")[1].innerHTML = "Ver Portfolio"
     
