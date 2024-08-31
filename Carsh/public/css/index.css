@@ -225,6 +225,155 @@ footer p a{
 }
 .element:hover{
     transition: 0.5s ;
-    padding: 20px 30px;
+    padding: 2% 2%;
     margin: 10px 0px;
+}
+
+@media (max-width: 720px){
+    header{
+        margin: 0px 0px 0px 0px;
+    }
+    .heroContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: px;
+    }
+    h1{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .hero-section p{
+        text-align: center;
+        width: 450px;
+        margin: 20px 0px;
+    }
+    .mainButton{
+        margin: 0px 0px;
+    }
+    h2{
+        align-items: center;
+    }
+    .background-margin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre p{
+        text-align: center;
+    }
+    .localizacao img{
+        height: 300px;
+    }
+}
+@media (max-width: 580px){
+    .hero-section{
+        height: 600px;
+        background-image: url("../images/backgroundPhone.svg");
+        background-size: cover;
+        margin: 0px;
+    }
+    .links{
+        display: none;
+    }
+    h1{
+        font-size: 20px;
+        line-height: 140%;
+    }
+    h1 .size1{
+        font-weight: 300;
+        font-size: 35px;
+    }
+    h1 .size2{
+        font-weight: 500;
+        font-size: 35px;
+    }
+    h1 .size3{
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .hero-section p{
+        font-size: 14px;
+        max-width: 300px;
+    }
+    .mainButton{
+        font-size: 13px;
+        padding: 4px 10px;
+        border-radius: 20px;
+        margin-left: 0px;
+    }
+    .background-margin{
+        margin: 0px 0px 0px 0px;
+    }
+    h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .element{
+        width: 270px;
+        height: 260px;
+        padding: 00px 00px;
+        margin: 10px 10px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title h3{
+        font-weight: 400;
+        font-size: 23px;
+        margin: 0px;
+        text-align: center;
+    }
+    .text{
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text p{
+        font-size: 15px;
+        margin: 0px;
+        text-align: center;
+    }
+    .text p .size1{
+        font-weight: 400;
+        font-size: 6px;
+    }
+    .text p .size2{
+        font-size: 14px;
+    }
+    .text p .size3{
+        font-size: 20px;
+    }
+    .text button{
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    .image img{
+        width: 250px;
+    }
+    .sobre p{
+        width: 280px;
+        font-size: 15px;
+    }
+    .sobre{
+        height: 500px;
+    }
+
+
+
+    .localizacao img{
+        height: 180px;
+    }
+    .element:hover{
+        transition: 0.5s ;
+        padding: 0%;
+        margin: 10px 0px;
+    }
 }
