@@ -7,6 +7,9 @@ html{
 body{
     margin: 0;
 }
+.displayOff{
+    display: none;
+}
 .hero-section{
     height: 800px;
     background-image: url("../images/backgroundHeroSection.png");
@@ -274,8 +277,38 @@ footer p a{
         background-size: cover;
         margin: 0px;
     }
-    .links{
+    header{
+        background-color: rgba(0, 0, 0, 0.548);
+    }
+    header .links a{
         display: none;
+    }
+    .links-phone{
+        display: none;
+    }
+    .links-phone .links{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.548);
+        padding: 15px;
+        border: solid 2px rgb(105, 105, 105);
+    }
+    .links-phone .links a{
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    .menu-phone{
+        display: block;
+        margin-right: 0px;
+        font-size: 60px;
+        padding: 0px 20px;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        cursor: pointer;
     }
     h1{
         font-size: 20px;
