@@ -399,10 +399,9 @@ footer p{
     }
     .about p{
         font-size: 14px;
-        max-width: 240px;
-        height: 300px;
-        position: relative;
-
+        width: 250px;
+        text-align: center;
+        margin-right: 10px;
     }
     .about img{
         width: 133px;
@@ -443,8 +442,6 @@ footer p{
     }
 }
 @media (max-width: 420px){
-    body{
-    }
     .menu{
         display: flex;
     }
@@ -489,7 +486,6 @@ footer p{
         font-size: 12px;
         width: 200px;
         height: 270px;
-        position: relative;
     }
     .about img{
         width: 100px;
